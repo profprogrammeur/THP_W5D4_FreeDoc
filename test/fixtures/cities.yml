@@ -2,8 +2,6 @@
 
 one:
   name: MyString
-  zip_code: MyString
 
 two:
   name: MyString
-  zip_code: MyString
