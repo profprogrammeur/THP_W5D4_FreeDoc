@@ -1,25 +1,17 @@
 # ANT_FreeDoc
 
+## Purpose
+Exemple of doctors SQL database with a Ruby on Rails app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
+  * Begin to install gems with a classic :
+```bundle install```
+  * To reset the database execute the command :   
+ ```rake db:drop db:create db:migrate``` 
+  * then create classes
+ ```rails db:migrate ```
+  * and populate the database
+ ```rails db:seed```
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
