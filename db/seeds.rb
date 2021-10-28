@@ -17,8 +17,6 @@ City.destroy_all
   )
 end
 
-
-
 10.times do
   Doctor.create!(
     first_name: Faker::Name.first_name,
